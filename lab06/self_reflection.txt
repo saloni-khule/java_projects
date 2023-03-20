@@ -1,0 +1,74 @@
+You must answer at least 4 questions, but the remaining ones are optional. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A:  Helper method for the wrap around from the staff solution would have made my solution better.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I think I handled the circular implementation quite well. By not setting my nextFirst to the middle
+of the array after resizing, I avoided a lot of confusion.
+I set my nextFirst to the last position on the list after resizing, so I did not have to worry about settig nextFirst to the last
+position once it reached 0. It also helped with the get method.
+Also, I used the get method to resize instead of system arraycopy, which I believe, made my code fail safe.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: Since I didn't have a helper method for the wrap around, I went through the special cases again and again
+for going through the circular loop.
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A:
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: If I knew that I could use the get method to resize, I would not have spent so much time on correctly
+indexing the arraycopy.
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: I would have used get to resize initially instead of figuring it out in the end.
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: I should have used better variable names for next and prev. I used rest and first, which was
+a bad idea. It would be hard for someone else to understand what I'm trying to say if they just read my code.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A:
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I have to use sentinel.rest at some places in my code instead of sentinel. This is a little
+   inelegant.
+   Also, the names of my variables are a little confusing.
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A:
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A: I did not know how interconnected the nodes had to be. So, I spent days on addFirst. If I knew how
+a lot of special cases would be needed, and that the implementation would be quite complex, I'd approach the
+addFirst method  differently.
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A: I would first get through with the interconnection of nodes before trying to write the code.
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: 

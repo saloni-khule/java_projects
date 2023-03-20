@@ -1,0 +1,27 @@
+Please enter desired length of each string: 100
+Enter # strings to insert into the maps: 100
+class bstmap.ULLMap: 0.00 sec
+class bstmap.BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+
+
+Enter # strings to insert into the maps: 1000000
+--Stack Overflow -- couldn't add 1000000 strings of length 100.
+class bstmap.BSTMap: 1.94 sec
+Java's Built-in TreeMap: 1.90 sec
+Java's Built-in HashMap: 1.20 sec
+
+
+Enter # strings to insert into the maps: 2000
+class bstmap.ULLMap: 0.05 sec
+class bstmap.BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+
+
+Enter # strings to insert into the maps: 20000
+class bstmap.ULLMap: 2.18 sec
+class bstmap.BSTMap: 0.02 sec
+Java's Built-in TreeMap: 0.02 sec
+Java's Built-in HashMap: 0.02 sec
